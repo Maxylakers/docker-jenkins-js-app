@@ -5,7 +5,7 @@ pipeline {
             steps {
 				echo 'executing yarn..'
                 nodejs('Node-10-17'){
-                    sh 'yard install'
+                    sh 'yarn install'
                 }
              }
         }
